@@ -9,22 +9,22 @@ body {
 }
 
 .app {
-  /* background-image: url("./assets/cold-bg.jpg"); */
+  background-image: url("./assets/cold-bg.jpg");
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease-out;
 }
 
 .app.warm {
-  /* background-image: url("./assets/warm-bg.jpg"); */
+  background-image: url("./assets/warm-bg.jpg");
 }
 
 main {
   min-height: 100vh;
   background-image: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.75)
+    rgba(0, 0, 0, 0.05),
+    rgba(5, 0, 0, 0.1)
   );
   padding: 25px;
 }
