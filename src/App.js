@@ -61,7 +61,7 @@ function App() {
         typeof weather.main != "undefined"
           ? weather.main.temp >= 20
             ? "app warm"
-            : "app"
+            : "app cold"
           : "app"
       }
     >
@@ -90,7 +90,9 @@ function App() {
             </div>
           </div>
         ) : (
-          ""
+          <div className='welcome-box'>
+            <h1> Weather App </h1>
+          </div>
         )}
       </main>
     </div>

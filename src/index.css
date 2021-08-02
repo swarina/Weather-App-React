@@ -9,14 +9,37 @@ body {
 }
 
 .app {
-  background-image: url("./assets/cold-bg.jpg");
+  background-image: url("./assets/bg.jpg");
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
+  transition: 0.4s ease-out;
+  text-align: center;
+}
+
+.app.cold{
+  background-image: url("./assets/cold-bg.jpg");
 }
 
 .app.warm {
   background-image: url("./assets/warm-bg.jpg");
+}
+
+.welcome-box {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 main {
